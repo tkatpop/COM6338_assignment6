@@ -96,12 +96,6 @@ table {
 }
 
 .cheese h1{
-	color:#ffffff;
-	font-size: 1.5em;
-	padding-bottom:15px;
-}
-
-.cheese h2{
 	font-family: meatball,sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -111,8 +105,17 @@ table {
 	margin: 10px auto;
 }
 
-.cheese h3{
+.cheese h2{
 	font-size:1.2em;
+	font-family: meatball,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#FFA500;
+	padding-bottom:10px;
+}
+
+.cheese h3{
+	font-size:.9em;
 	font-family: meatball,sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -122,6 +125,7 @@ table {
 
 .cheese main img{
 	max-width:300px;
+	border:#ffffff solid 5px;
 }
 
 .cheese p{
@@ -162,14 +166,11 @@ table {
 @media screen and (min-width: 768px){
 
 	.cheese h1{
-		font-size: 2em;
+		font-size: 3em;
+		padding-bottom: 10px;
 	}
 
 	.cheese h2{
-		font-size: 3em;
-	}
-
-	.cheese h3{
 		font-size:1.5em;
 	}
     
@@ -177,9 +178,6 @@ table {
 		max-width:150px;
 	}
 
-	.cheese h1{
-		padding-bottom:0;
-	}
 }
 
 @media screen and (min-width: 992px){
