@@ -82,24 +82,110 @@ table {
 
 /*cheese*/
 
+.cheese{
+	text-align: center;
+	background-color: #2500FF;
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.cheese header img{
+	max-width:100px;
+	padding: 20px;
+}
+
+.cheese h1{
+	color:#ffffff;
+	font-size: 1.5em;
+	padding-bottom:15px;
+}
+
+.cheese h2{
+	font-family: meatball,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#FFA500;
+	font-size: 2.8em;
+	max-width: 80%;
+	margin: 10px auto;
+}
+
+.cheese h3{
+	font-size:1.2em;
+	font-family: meatball,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color:#FFA500;
+	padding-bottom:10px;
+}
+
+.cheese main img{
+	max-width:300px;
+}
+
+.cheese p{
+	font-size:1em;
+	color:#060027;
+	text-align: left;
+	padding:5px;
+}
+
+.cheese section{
+	background-color: #ffffff;
+	max-width:80%;
+	margin:20px auto;
+	padding:20px;
+}
+
+.cheese section a{
+	text-decoration: none;
+	background-color: #2500FF;
+	color: #ffffff;
+	padding:5px;
+	max-width: 100px;
+	border:#FFA500 solid 2px;
+	border-radius: 5px;
+}
+
 /*Media Queries*/
 
+
 @media screen and (min-width: 320px){
+
+	.cheese{
+		width:100%;
+	}
     
 }
 
-@media screen and (min-width: 576px){
-    
-}
+@media screen and (min-width: 768px){
 
-@media screen and (min-width: 768x){
+	.cheese h1{
+		font-size: 2em;
+	}
+
+	.cheese h2{
+		font-size: 3em;
+	}
+
+	.cheese h3{
+		font-size:1.5em;
+	}
     
+	.cheese header img{
+		max-width:150px;
+	}
+
+	.cheese h1{
+		padding-bottom:0;
+	}
 }
 
 @media screen and (min-width: 992px){
-    
-}
 
-@media screen and (min-width: 1200px){
+	.cheese h3{
+		padding-bottom: 20px;
+	}
     
 }
